@@ -11,7 +11,7 @@ mochila <- function(x) {
   f - penalty
 }
 
-# Rn SGA
+# Run SGA
 SGA <- ga(type="binary",
   fitness=mochila,
   nBits=n,
